@@ -15,4 +15,4 @@ def alterar_metas_por_nome(nome, novo_valor_meta):
     cursor.close()
     conn.close()
 
-alterar_metas_por_nome('Malu', 150)
+alterar_metas_por_nome('Gama', 250)

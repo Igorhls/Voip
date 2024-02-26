@@ -15,4 +15,4 @@ def adicionar_nova_linha(matricula, nome, meta_atual):
     cursor.close()
     conn.close()
 
-adicionar_nova_linha(254782, 'Malu', 13)
+adicionar_nova_linha(254782, 'Asbuahduahda', 13)

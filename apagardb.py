@@ -15,4 +15,4 @@ def apagar_dados_por_nome(nome):
     cursor.close()
     conn.close()
 
-apagar_dados_por_nome('Novo gama')
+apagar_dados_por_nome('Asbuahduahda')

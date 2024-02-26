@@ -18,7 +18,7 @@ def consultar_metas_por_nome_ou_todos(nome=None):
 
     if resultados:
         for linha in resultados:
-            print(f'Nome: {linha[0]}, Metas Atuais: {linha[1]}')
+            print(f'Nome: {linha[0]}, Meta Atual: {linha[1]}')
     else:
         if nome:
             print(f'Nenhum registro encontrado para o nome: {nome}')
@@ -28,4 +28,4 @@ def consultar_metas_por_nome_ou_todos(nome=None):
     cursor.close()
     conn.close()
 
-consultar_metas_por_nome_ou_todos('todos')
+consultar_metas_por_nome_ou_todos('Gama')
